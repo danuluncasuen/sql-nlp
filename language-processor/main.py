@@ -2,7 +2,7 @@ import spacy
 from spacy.pipeline import EntityRuler
 
 nlp = spacy.load("en_core_web_sm")
-text = "Show me all records where age is greater than 25"
+text = "Show me all user where age is greater than 25"
 
 doc = nlp(text)
 
